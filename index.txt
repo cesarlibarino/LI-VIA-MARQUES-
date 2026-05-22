@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lívia Marques | Nutrição Esportiva & Estética</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet"/>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: { sans: ['Plus Jakarta Sans', 'sans-serif'] },
+          colors: {
+            livia: {
+              bg: '#0a1114', /* Grafite escuro azulado */
+              card: '#111d23', /* Card complementar */
+              brand: '#00b4d8', /* Azul Turquesa / Ciano Vibrante */
+              brandHover: '#0077b6',
+              lightText: '#e2e8f0',
+              muted: '#94a3b8'
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    .reveal { opacity: 0; transform: translateY(40px); transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1); }
+    .reveal.active { opacity: 1; transform: translateY(0); }
+    .text-gradient { background: linear-gradient(to right, #00b4d8, #90e0ef); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+  </style>
+</head>
+<body class="bg-livia-bg text-white font-sans antialiased selection:bg-livia-brand selection:text-white">
+
+  <header class="fixed top-0 w-full z-50 bg-livia-bg/90 backdrop-blur-md border-b border-white/5">
+    <div class="max-w-7xl mx-auto px-6 sm:px-12 h-24 flex items-center justify-between">
+      <div class="text-xl sm:text-2xl font-extrabold uppercase tracking-tight">
+        Lívia Marques <span class="text-livia-brand text-xs sm:text-sm block font-semibold tracking-wider normal-case">Nutrição Esportiva & Estética</span>
+      </div>
+      <a href="https://api.whatsapp.com/send?phone=5519996729230" target="_blank" class="bg-livia-brand hover:bg-livia-brandHover text-white text-xs sm:text-sm font-bold uppercase px-6 py-3 rounded transition-all duration-300 transform hover:scale-105 active:scale-95">
+        Agendar Consulta
+      </a>
+    </div>
+  </header>
+
+  <section class="pt-40 pb-24 px-6 max-w-7xl mx-auto min-h-screen flex flex-col justify-center items-center">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-8 items-center w-full mt-10 lg:mt-0">
+      
+      <div class="reveal active text-center lg:text-left order-2 lg:order-1">
+        <span class="inline-block bg-livia-brand/10 text-livia-brand border border-livia-brand/20 text-xs sm:text-sm font-bold uppercase tracking-widest px-5 py-2 rounded-full mb-8 animate-pulse">
+          Performance, Estética e Saúde com Prazer
+        </span>
+        
+        <h1 class="text-4xl sm:text-6xl lg:text-7xl font-extrabold uppercase tracking-tighter leading-tight sm:leading-none mb-8">
+          Disciplina e prazer cabem no <span class="text-gradient block lg:inline">mesmo prato.</span>
+        </h1>
+        
+        <p class="text-gray-400 text-lg sm:text-xl mb-12 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
+          Descubra como evoluir no seu esporte — seja no <strong class="text-white font-semibold">Crossfit, natação ou corrida</strong> — e conquiste o resultado estético que deseja sem abrir mão do prazer de comer.
+        </p>
+        
+        <div class="mb-8 lg:mb-0">
+          <a href="https://api.whatsapp.com/send?phone=5519996729230" target="_blank" class="inline-flex items-center justify-center w-full sm:w-auto gap-4 bg-livia-brand hover:bg-livia-brandHover text-white font-bold uppercase text-sm sm:text-base tracking-widest px-10 py-5 rounded-md shadow-2xl shadow-livia-brand/30 transition-all duration-300 transform hover:-translate-y-1">
+            <i data-lucide="dumbell" class="w-6 h-6"></i> Conheça Meu Trabalho
+          </a>
+        </div>
+      </div>
+
+      <div class="reveal active flex justify-center lg:justify-end order-1 lg:order-2 mb-10 lg:mb-0">
+        <div class="relative inline-block">
+          <div class="absolute inset-0 bg-livia-brand/20 rounded-full blur-3xl pointer-events-none"></div>
+          <img 
+            src="livia-marques.webp" 
+            alt="Lívia Marques - Nutricionista Esportiva" 
+            class="relative mx-auto w-64 h-64 sm:w-80 sm:h-80 lg:w-[450px] lg:h-[450px] rounded-full object-cover border-4 border-livia-brand/30 shadow-2xl shadow-livia-brand/20 transition-transform duration-500 hover:scale-105"
+          />
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="py-32 px-6 bg-[#0c161a] border-y border-white/5">
+    <div class="max-w-6xl mx-auto text-center">
+      <div class="reveal max-w-3xl mx-auto mb-20">
+        <h2 class="text-3xl sm:text-5xl font-extrabold uppercase tracking-tight mb-6">
+          Você sente que seu treino <span class="text-livia-brand">não rende o esperado?</span>
+        </h2>
+        <p class="text-gray-400 text-lg leading-relaxed">
+          Muitas vezes, a barreira entre o seu corpo atual e o seu objetivo estético ou de performance está no erro de achar que comer bem é passar fome.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
+        <div class="reveal bg-livia-card p-10 rounded-xl border border-white/5 group hover:border-livia-brand/30 transition-all">
+          <div class="w-12 h-12 rounded-lg bg-livia-brand/10 text-livia-brand flex items-center justify-center mb-6">
+            <i data-lucide="zap-off" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-xl font-bold uppercase mb-4">Queda de Rendimento</h3>
+          <p class="text-gray-400">Falta energia no meio do WOD, na piscina ou na pista de corrida. Seu estoque de combustível muscular está zerado.</p>
+        </div>
+
+        <div class="reveal bg-livia-card p-10 rounded-xl border border-white/5 group hover:border-maju-brand/30 transition-all">
+          <div class="w-12 h-12 rounded-lg bg-livia-brand/10 text-livia-brand flex items-center justify-center mb-6">
+            <i data-lucide="scale" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-xl font-bold uppercase mb-4">Frustração com o Espelho</h3>
+          <p class="text-gray-400">Você treina intensamente, mantém uma rotina rígida, mas a definição e a queima de gordura parecem estagnadas.</p>
+        </div>
+
+        <div class="reveal bg-livia-card p-10 rounded-xl border border-white/5 group hover:border-livia-brand/30 transition-all">
+          <div class="w-12 h-12 rounded-lg bg-livia-brand/10 text-livia-brand flex items-center justify-center mb-6">
+            <i data-lucide="ban" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-xl font-bold uppercase mb-4">Dietas Insuportáveis</h3>
+          <p class="text-gray-400">Planos genéricos que tiram toda a sua vida social, gerando ansiedade e fazendo você chutar o balde no fim de semana.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-32 px-6 max-w-6xl mx-auto">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+      
+      <div class="reveal order-2 md:order-1 bg-gradient-to-br from-livia-card to-livia-bg p-12 rounded-2xl border border-white/10 relative overflow-hidden">
+        <div class="absolute -right-16 -bottom-16 w-64 h-64 bg-livia-brand/5 rounded-full blur-3xl"></div>
+        <h4 class="text-2xl font-extrabold uppercase mb-6 text-livia-brand">Nutrição sob medida para seu esporte</h4>
+        <ul class="space-y-6">
+          <li class="flex items-start gap-4">
+            <div class="mt-1 bg-livia-brand rounded-full p-1"><i data-lucide="check" class="w-4 h-4 text-livia-bg"></i></div>
+            <p class="text-gray-300"><strong>Acompanhamento Específico:</strong> Estratégias personalizadas para praticantes de Crossfit, natação e corrida.</p>
+          </li>
+          <li class="flex items-start gap-4">
+            <div class="mt-1 bg-livia-brand rounded-full p-1"><i data-lucide="check" class="w-4 h-4 text-livia-bg"></i></div>
+            <p class="text-gray-300"><strong>Equilíbrio Real:</strong> Alinhamento exato entre a energia necessária para treinar pesado e o prazer no dia a dia.</p>
+          </li>
+          <li class="flex items-start gap-4">
+            <div class="mt-1 bg-livia-brand rounded-full p-1"><i data-lucide="check" class="w-4 h-4 text-livia-bg"></i></div>
+            <p class="text-gray-300"><strong>Emagrecimento com Saúde:</strong> Redução do percentual de gordura priorizando sua massa muscular e vigor físico.</p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="order-1 md:order-2 space-y-8">
+        <div class="reveal">
+          <h2 class="text-3xl sm:text-5xl font-extrabold uppercase tracking-tight mb-6">
+            Emagrecimento, performance e <span class="text-gradient">estética com saúde!</span>
+          </h2>
+          <p class="text-gray-400 text-lg leading-relaxed">
+            Meu trabalho consiste em calcular minuciosamente os seus nutrientes para que o seu corpo use os alimentos a favor do seu ganho estético e de rendimento físico.
+          </p>
+        </div>
+        
+        <div class="reveal flex gap-6 items-start">
+          <div class="w-14 h-14 rounded-full bg-livia-brand/10 text-livia-brand flex items-center justify-center shrink-0">
+            <i data-lucide="trophy" class="w-6 h-6"></i>
+          </div>
+          <div>
+            <h3 class="text-xl font-bold uppercase mb-2">Resultados Consistentes</h3>
+            <p class="text-gray-400 text-sm sm:text-base">Esqueça o efeito sanfona. Quando a rotina alimentar faz sentido para a sua realidade, os resultados duram para sempre.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-32 px-6 bg-gradient-to-b from-[#0a1114] to-livia-bg text-center border-t border-white/5">
+    <div class="reveal max-w-4xl mx-auto">
+      <h2 class="text-4xl sm:text-6xl font-extrabold uppercase tracking-tighter mb-8 leading-tight">
+        Alavanque seus <span class="text-livia-brand">resultados hoje.</span>
+      </h2>
+      <p class="text-gray-400 text-lg sm:text-xl mb-12 leading-relaxed">
+        Chegou a hora de transformar o seu esforço nos treinos em mudanças reais no espelho. Clique abaixo para iniciar o seu acompanhamento nutricional personalizado.
+      </p>
+
+      <div class="flex flex-col items-center gap-6">
+        <a href="https://api.whatsapp.com/send?phone=5519996729230" target="_blank" class="inline-flex items-center gap-4 bg-livia-brand hover:bg-livia-brandHover text-white font-bold uppercase text-sm sm:text-lg tracking-widest px-12 py-6 rounded-md shadow-2xl shadow-livia-brand/30 transition-all duration-300 transform hover:-translate-y-1">
+          <i data-lucide="message-circle" class="w-6 h-6"></i> Falar Conosco no WhatsApp
+        </a>
+        <div class="flex items-center gap-2 text-livia-brand text-xs uppercase tracking-widest font-bold">
+          <span class="w-2 h-2 bg-livia-brand rounded-full animate-ping"></span>
+          Vagas exclusivas disponíveis para novos pacientes
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="py-12 text-center text-xs text-gray-600 border-t border-white/5">
+    <p>&copy; 2026 Lívia Marques | Consultoria Nutricional Personalizada</p>
+  </footer>
+
+  <script>
+    lucide.createIcons();
+    
+    const reveals = document.querySelectorAll('.reveal');
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(e => { 
+        if(e.isIntersecting) { 
+          e.target.classList.add('active'); 
+          observer.unobserve(e.target); 
+        } 
+      });
+    }, { threshold: 0.1 });
+    
+    reveals.forEach(r => observer.observe(r));
+  </script>
+</body>
+</html>
